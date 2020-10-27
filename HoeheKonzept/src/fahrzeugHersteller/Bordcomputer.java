@@ -18,7 +18,7 @@ public class Bordcomputer {
   public static void main(String[] args) {
     Bordcomputer computer = new Bordcomputer();
 
-    String className = computer.getClass().getName();
+//    String className = computer.getClass().getName();
 
     Method[] classMethods = computer.getClass().getDeclaredMethods();
     for(Method methode : classMethods){
